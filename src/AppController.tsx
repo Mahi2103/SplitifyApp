@@ -1,15 +1,14 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import AppController from './src/AppController';
 
-const App = () => {
+const AppController = () => {
   return (
     <View>
-      <AppController />
+      <Text>AppController</Text>
     </View>
   );
 };
 
-export default App;
+export default AppController;
 
 const styles = StyleSheet.create({});
